@@ -1,40 +1,17 @@
+Author: Adam Schaub
+Course: CSE 313
+Assignment: Homework 1
+Date: 9/10/14
+
 ========================================================================
     CONSOLE APPLICATION : AdamSchaub_Homework1 Project Overview
 ========================================================================
 
-AppWizard has created this AdamSchaub_Homework1 application for you.
-
-This file contains a summary of what you will find in each of the files that
-make up your AdamSchaub_Homework1 application.
-
-
-AdamSchaub_Homework1.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
-
-AdamSchaub_Homework1.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
-
 AdamSchaub_Homework1.cpp
-    This is the main application source file.
+    This is the main application source file. This implementation draws a five-leaf rose with
+    a line trace. The leading point of the trace is white by default and uniformly diminishes
+    to black over an arbitrary interval. 
 
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named AdamSchaub_Homework1.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+    An extra credit feature has been included. Press 'h' to colorize the graph. The line's
+    trailing point is now drawn in blue, then turns a dark shade of purple, reaching the
+    leading point as a light shade of purple.
